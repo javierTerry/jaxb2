@@ -1327,6 +1327,7 @@ public class Comprobante {
     @XmlType(name = "", propOrder = {
         "cfdiRelacionado"
     })
+    
     public static class CfdiRelacionados {
 
         @XmlElement(name = "CfdiRelacionado", required = true)
